@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("assets/fonts/static/Montserrat-Regular.ttf");
+}
+body {
+    font-family: 'Montserrat';
+}
+h1 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: -20px;
+}
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.about_me, .skills, .work_exp, .education, .english {
+    margin-bottom: 40px;
+}
+* {
+    box-sizing: border-box;
+}
