@@ -52,6 +52,9 @@ html {
     text-decoration: none;
     color: beige;
 }
+.nav-link {
+    transition: .3s;
+  }
 .header {
     width: 100%;
     background-color: #808080;
