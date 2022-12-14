@@ -60,3 +60,31 @@ html {
     background-color: #808080;
     height: 60px;
 }
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.section {
+    width: 50%;
+  }
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+.footer {
+    width: 100%;
+    background-color: #808080;
+    height: 60px;
+}
+.logo_rs {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    align-items: center;
+    text-transform: uppercase;
+}
+.author {
+    margin-left: 30px;
+    align-items: center;
+}
