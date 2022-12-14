@@ -10,6 +10,7 @@ h1 {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: -20px;
+    text-transform: uppercase
 }
 h2 {
     font-family: 'Montserrat';
@@ -20,7 +21,7 @@ h3 {
     font-family: 'Montserrat';
     font-weight: 400;
 }
-.about_me, .skills, .work_exp, .education, .english {
+.summary, .skills, .code, .work, .education, .english {
     margin-bottom: 40px;
 }
 * {
@@ -34,7 +35,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-  }
+}
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -64,18 +65,15 @@ html {
     display: flex;
     flex-wrap: wrap;
   }
-.section {
-    width: 50%;
-  }
 @media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
+.section {
+  width: 100%;
+ }
+}
 .footer {
     width: 100%;
     background-color: #808080;
-    height: 60px;
+    height: 80px;
 }
 .logo_rs {
     display: flex;
@@ -87,4 +85,21 @@ html {
 .author {
     margin-left: 30px;
     align-items: center;
+}
+.sidebar-container {
+    position: absolute;
+    background-color: #FF8C00;
+    width: 400px;
+    height: auto;
+}
+.content-container {
+    width: 900px;
+    float: right;
+    align-items: center;
+}
+.photo_hero {
+    margin-top: 0px;
+}
+.contacts_hero {
+    margin-left: 30px;
 }
